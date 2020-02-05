@@ -2,11 +2,11 @@
 
 namespace griselda
 {
-    class Program
+    class program
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            griseldamember bennythebutcher = new griseldamember("benny the butcher");
+            griseldamember daringer = new griseldamember("daringer");
         }
     }
-}
